@@ -8,7 +8,7 @@
 2. Установи git: `sudo xbps-install -S git wget unzip`
 3. Клонируй репозиторий:
    ```bash
-   git clone 
+   git clone https://github.com/zarexego/void-linux-dotfiles
    cd ~/dotfiles
 
 ## Настройка драйверов видео
