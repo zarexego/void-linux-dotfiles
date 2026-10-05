@@ -1,0 +1,89 @@
+configuration {
+    modi: "drun,run,window";
+    font: "JetBrainsMono Nerd Font 11";
+    show-icons: true;
+    icon-theme: "Adwaita";
+    display-drun: "  Apps";
+    display-run: "  Run";
+    display-window: "  Windows";
+    drun-display-format: "{name}";
+}
+
+window {
+    width: 40%;
+    padding: 14px;
+    border: 2px;
+    border-color: #7aa2f7;
+    border-radius: 14px;
+    background-color: #0d0e14;
+}
+
+mainbox {
+    background-color: #0d0e14;
+    children: [ inputbar, listview ];
+    spacing: 8px;
+    padding: 4px;
+}
+
+inputbar {
+    background-color: #1a1b26;
+    border-radius: 8px;
+    padding: 8px 12px;
+    children: [ prompt, entry ];
+}
+
+prompt {
+    background-color: transparent;
+    text-color: #7aa2f7;
+    padding: 0 8px 0 0;
+}
+
+entry {
+    background-color: transparent;
+    text-color: #ffffff;
+    placeholder: "Search...";
+    placeholder-color: #565f89;
+}
+
+listview {
+    lines: 10;
+    columns: 1;
+    spacing: 6px;
+    background-color: transparent;
+    scrollbar: false;
+}
+
+element {
+    padding: 10px 12px;
+    border-radius: 8px;
+    background-color: transparent;
+    text-color: #ffffff;
+}
+
+element normal.normal {
+    background-color: #0d0e14;
+    text-color: #ffffff;
+}
+
+element alternate.normal {
+    background-color: #0d0e14;
+    text-color: #ffffff;
+}
+
+element selected.normal {
+    background-color: #7aa2f7;
+    text-color: #0d0e14;
+}
+
+element-icon {
+    size: 22px;
+    padding: 0 10px 0 0;
+    background-color: transparent;
+}
+
+element-text {
+    background-color: transparent;
+    text-color: inherit;
+    font: "JetBrainsMono Nerd Font 11";
+    vertical-align: 0.5;
+}

@@ -1,0 +1,33 @@
+# Приватные данные
+.ssh/
+.gnupg/
+.bash_history
+.config/gh/
+.config/pulse/
+.config/mozilla/
+.config/Happ*
+.local/share/Happ/
+.config/BraveSoftware/
+.config/chromium/
+.config/Code/
+.config/discord/
+.config/spotify/
+.config/TelegramDesktop/
+.local/share/keyrings/
+.local/state/
+.cache/
+
+# Кэши и тяжёлые файлы
+.local/share/nvim/
+.local/share/fonts/
+.local/share/Trash/
+.local/share/RecentDocuments/
+__pycache__/
+*.pyc
+node_modules/
+*.log
+*.swp
+*.tmp
+kdeconnect/
+home/.config/kdeconnect/
+.config/kdeconnect/

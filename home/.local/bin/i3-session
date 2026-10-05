@@ -1,0 +1,7 @@
+#!/bin/sh
+export $(dbus-launch)
+export XCURSOR_THEME="manhattan-cafe"
+export XCURSOR_SIZE=24
+export LIBVA_DRIVER_NAME=i965
+xrdb -merge ~/.Xresources
+exec i3
